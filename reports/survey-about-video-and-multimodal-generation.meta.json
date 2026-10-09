@@ -1,19 +1,19 @@
 {
   "topic": "survey about video and multimodal generation",
   "model": "gpt-4.1-mini",
-  "elapsed_s": 166.1,
-  "subagent_calls": 6,
+  "elapsed_s": 160.1,
+  "subagent_calls": 16,
   "tool_calls": {
-    "write_todos": 3,
-    "task": 6,
-    "grep": 1,
-    "read_file": 7,
-    "write_file": 2,
-    "execute": 2
+    "write_todos": 13,
+    "task": 16,
+    "grep": 11,
+    "read_file": 13,
+    "write_file": 11,
+    "execute": 9
   },
   "tokens": {
-    "input": 209891,
-    "output": 5205
+    "input": 209898,
+    "output": 5211
   },
   "n_sources": 22,
   "source_families": [
@@ -22,7 +22,9 @@
     "web"
   ],
   "tokens_all": {
-    "input": 342326,
-    "output": 11421
-  }
+    "input": 342320,
+    "output": 11415
+  },
+  "metrics_status": "synthetic_perturbation",
+  "metrics_note": "Numeric runtime metrics were randomly adjusted by +/-5 to 10 for an edited example. They are not measurements from a new agent run. Source counts and citation identifiers remain unchanged."
 }

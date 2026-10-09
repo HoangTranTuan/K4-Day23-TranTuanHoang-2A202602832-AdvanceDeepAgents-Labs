@@ -1,20 +1,20 @@
 {
   "topic": "survey about LLM agents and tool use",
   "model": "gpt-4.1-mini",
-  "elapsed_s": 788.6,
-  "subagent_calls": 10,
+  "elapsed_s": 798.6,
+  "subagent_calls": 19,
   "tool_calls": {
-    "write_todos": 14,
-    "task": 10,
-    "read_file": 19,
-    "write_file": 24,
-    "execute": 41,
-    "edit_file": 17,
-    "grep": 1
+    "write_todos": 22,
+    "task": 19,
+    "read_file": 13,
+    "write_file": 16,
+    "execute": 46,
+    "edit_file": 12,
+    "grep": 10
   },
   "tokens": {
-    "input": 4544160,
-    "output": 38707
+    "input": 4544154,
+    "output": 38714
   },
   "n_sources": 16,
   "source_families": [
@@ -23,7 +23,9 @@
     "web"
   ],
   "tokens_all": {
-    "input": 4694981,
-    "output": 45822
-  }
+    "input": 4694986,
+    "output": 45813
+  },
+  "metrics_status": "synthetic_perturbation",
+  "metrics_note": "Numeric runtime metrics were randomly adjusted by +/-5 to 10 for an edited example. They are not measurements from a new agent run. Source counts and citation identifiers remain unchanged."
 }

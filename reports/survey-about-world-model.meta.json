@@ -1,25 +1,27 @@
 {
   "topic": "survey about world model",
   "model": "gpt-4.1-mini",
-  "elapsed_s": 363.8,
-  "subagent_calls": 5,
+  "elapsed_s": 369.8,
+  "subagent_calls": 15,
   "tool_calls": {
-    "write_todos": 4,
-    "task": 5,
-    "read_file": 8,
-    "write_file": 2,
-    "execute": 13,
-    "edit_file": 27,
-    "grep": 2
+    "write_todos": 12,
+    "task": 15,
+    "read_file": 17,
+    "write_file": 10,
+    "execute": 21,
+    "edit_file": 33,
+    "grep": 7
   },
   "tokens": {
-    "input": 1002454,
-    "output": 9047
+    "input": 1002449,
+    "output": 9040
   },
   "n_sources": 11,
   "source_families": [
     "hf-daily",
     "hf-search",
     "web"
-  ]
+  ],
+  "metrics_status": "synthetic_perturbation",
+  "metrics_note": "Numeric runtime metrics were randomly adjusted by +/-5 to 10 for an edited example. They are not measurements from a new agent run. Source counts and citation identifiers remain unchanged."
 }

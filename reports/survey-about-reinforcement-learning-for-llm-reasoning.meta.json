@@ -1,19 +1,19 @@
 {
   "topic": "survey about reinforcement learning for LLM reasoning",
   "model": "gpt-4.1-mini",
-  "elapsed_s": 274.5,
-  "subagent_calls": 5,
+  "elapsed_s": 280.5,
+  "subagent_calls": 15,
   "tool_calls": {
-    "write_todos": 3,
-    "task": 5,
-    "read_file": 6,
-    "write_file": 3,
-    "execute": 7,
-    "edit_file": 5
+    "write_todos": 8,
+    "task": 15,
+    "read_file": 16,
+    "write_file": 8,
+    "execute": 13,
+    "edit_file": 13
   },
   "tokens": {
-    "input": 390517,
-    "output": 7426
+    "input": 390509,
+    "output": 7431
   },
   "n_sources": 17,
   "source_families": [
@@ -22,7 +22,9 @@
     "web"
   ],
   "tokens_all": {
-    "input": 495549,
-    "output": 13456
-  }
+    "input": 495556,
+    "output": 13448
+  },
+  "metrics_status": "synthetic_perturbation",
+  "metrics_note": "Numeric runtime metrics were randomly adjusted by +/-5 to 10 for an edited example. They are not measurements from a new agent run. Source counts and citation identifiers remain unchanged."
 }

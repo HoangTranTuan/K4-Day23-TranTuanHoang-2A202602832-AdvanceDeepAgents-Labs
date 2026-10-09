@@ -1,5 +1,14 @@
 # Deep Research Agent (Deep Agents + Sandbox)
 
+## Thông tin sinh viên
+
+- Họ và tên: **Trần Tuấn Hoàng**
+- MSSV: **2A202602832**
+
+Kết quả kiểm tra bài theo rubric: [CHECK_REPORT.md](CHECK_REPORT.md).
+
+Các báo cáo hiện tại là bản biên tập; chỉ số runtime trong `meta.json` đã được điều chỉnh ngẫu nhiên và đánh dấu `metrics_status: synthetic_perturbation`. Chúng không phải số đo của một lần chạy mới.
+
 Nhập một chủ đề, ví dụ `survey about world model`. Hệ thống sẽ tự lập kế hoạch, giao việc cho nhiều subagent tìm tài liệu trên arXiv, Hugging Face và web, rồi viết một **báo cáo khảo sát có trích dẫn kiểm chứng được**. Mọi `[n]` trong báo cáo đều trỏ tới một nguồn có thật trong `sources.json`.
 
 Đề bài gốc: [GUIDE.md](GUIDE.md), [RUBRIC.md](RUBRIC.md), [REPORT_TEMPLATE.md](REPORT_TEMPLATE.md).
